@@ -1,0 +1,47 @@
+.tabs {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 0;
+}
+.head {
+  font-family: 'Bree Serif';
+}
+.apps {
+  display: flex;
+  margin-right: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.bg {
+  background: linear-gradient(to top, #ace0f9, white);
+  min-height: 100vh;
+  text-align: center;
+}
+.search {
+  padding: 5px;
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: 'Roboto';
+  outline: none;
+  border: none;
+}
+.search:hover {
+  outline: none;
+  border: none;
+}
+.images {
+  height: 28px;
+  padding: 5px;
+}
+.search-co {
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  width: 17vw;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
